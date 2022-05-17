@@ -3,3 +3,12 @@
 ## 只针对一定用到的功能进行简单拓展，主要比重用于巩固基础。
 
 ## 每天至少学一个知识点。
+
+## 主库
+
+- pinia
+- vite
+- vue/core
+- vue/runtime
+- typescript
+- @vue/test-utils
