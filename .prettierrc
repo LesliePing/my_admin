@@ -1,0 +1,9 @@
+{
+  "extends": ["prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "arrow-body-style": "off",
+    "prefer-arrow-callback": "off",
+    "prettier/prettier": ["warning", {"singleQuote": true, "parser": "flow"}]
+  }
+}

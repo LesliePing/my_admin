@@ -3,6 +3,11 @@ require("@rushstack/eslint-patch/modern-module-resolution");
 
 module.exports = {
   root: true,
+  rules: {
+    "arrow-body-style": "off",
+    "prefer-arrow-callback": "off",
+    "prettier/prettier": ["warning", { singleQuote: true, parser: "flow" }],
+  },
   extends: [
     "plugin:vue/vue3-essential",
     "eslint:recommended",
